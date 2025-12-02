@@ -1,5 +1,6 @@
 {
   "name": "ecommerce-react",
+  "homepage": "https://mohamedmagdym.github.io/card-by-react-js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "cors": "^2.8.5",
     "ecommerce-react": "file:",
     "express": "^4.19.2",
+    "gh-pages": "^6.3.0",
     "mongoose": "^8.3.1",
     "nodemon": "^3.1.0",
     "phosphor-react": "^1.4.1",
@@ -25,7 +27,9 @@
     "dev": "nodemon server_backend.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
