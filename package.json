@@ -12,7 +12,6 @@
     "cors": "^2.8.5",
     "ecommerce-react": "file:",
     "express": "^4.19.2",
-    "gh-pages": "^6.3.0",
     "mongoose": "^8.3.1",
     "nodemon": "^3.1.0",
     "phosphor-react": "^1.4.1",
@@ -48,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
